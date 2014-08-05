@@ -1,4 +1,15 @@
 defmodule ExNote do
+  @todo "Improve documentation"
+  @moduledoc """
+  Module for retrieving module attributes and the associated blocks of code
+  """
+
+  @doc "get projects notes"
+  def get_notes(project, version, options, tag) do
+    # modify options
+    get_notes(project, version, options)
+  end
+
   def get_notes(project, version, options) do
   end
 
