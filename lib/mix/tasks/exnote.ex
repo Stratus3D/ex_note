@@ -25,7 +25,7 @@ defmodule Mix.Tasks.Exnote do
 
     Commands:
     mix exnote.setup    # Compile modules used for testing with ExUnit
-    mix exnote.setup    # Cleanup compiled modules
+    mix exnote.teardown # Cleanup compiled modules
     """
   end
 end
