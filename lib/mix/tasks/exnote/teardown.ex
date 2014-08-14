@@ -12,7 +12,6 @@ defmodule Mix.Tasks.Exnote.Teardown do
   Removes compiled modules used for ExUnit tests from test/support/ebin
   """
   def run([]) do
-    IO.inspect("cleanup.......")
     File.rm_rf("test/support/ebin/")
     File.mkdir("test/support/ebin/")
   end
