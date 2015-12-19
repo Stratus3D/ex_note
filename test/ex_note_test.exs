@@ -1,4 +1,9 @@
-defmodule ExNoteTestModule, do: @todo "Test this"
+defmodule ExNoteTestModule do
+  use ExNote
+
+  todo "Test this"
+  fixme "This is broken"
+end
 
 defmodule ExNoteTest do
   use ExUnit.Case
