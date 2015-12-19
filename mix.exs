@@ -4,7 +4,7 @@ defmodule ExNote.Mixfile do
   def project do
     [app: :ex_note,
      version: "0.0.1",
-     elixir: "~> 0.15.1",
+     elixir: "~> 1.0.5",
      deps: deps]
   end
 
