@@ -38,7 +38,7 @@ end
 
 The module will contain a couple functions:
 
-```
+``` elixir
 # Retrieve all the notes
 iex(1)> ExNoteExampleModule.notes
 %{fixme: [%{line: 5, note: "This is broken"}],
